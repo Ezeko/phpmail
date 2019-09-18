@@ -11,7 +11,7 @@
   $headers  .= "From: NO-REPLY<no-reply@mydomain.com>" . "\r\n";
   $subject = $_REQUEST['subject'];
   $message = '<html>
-                  <body>
+                  <body style="color:grey">
                       <p style="color: green">Hi '.$firstname.' '.$lastname.'</p>
                       <p>
                           We recieved below details from you. Please use given Request/Ticket ID for future follow up:
